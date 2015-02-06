@@ -19,10 +19,6 @@ android {
     }
 
     sourceSets {
-        defaultConfig {
-            testPackageName 'com.android.volley.tests'
-        }
-
         main {
             assets.srcDirs       = ['assets']
             res.srcDirs          = ['res']
@@ -33,8 +29,5 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
 
         }
-
-        instrumentTest.setRoot('tests')
-        instrumentTest.java.srcDirs = ['tests/src']
     }
 }
