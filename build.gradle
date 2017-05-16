@@ -36,6 +36,8 @@ android {
     compileSdkVersion rootProject.ext.sdkVersion
     buildToolsVersion rootProject.ext.btVersion
 
+    useLibrary 'org.apache.http.legacy'
+
     /*
     defaultConfig {
         minSdkVersion rootProject.ext.minSDKVersion
